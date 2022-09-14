@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--darkcolor);
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.top {
+    width: 100%;
+    float: left;
+}
+
+header {
+    width: 100%;
+    float: left;
+    background: aliceblue;
+    transition: 0.4s linear;
+}
+
+.logo {
+    float: left;
+    width: 15%;
+}
+
+.nav {
+    width: 75%;
+    float: right;
+    margin-top: 38px;
+    padding-right: 20px;
+}
+
+.logo img {
+    width: 100%;
+    padding: 20px 0 0 20px
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 8px 8px;
+    color: #837d82;
+
+}
+
+header a {
+    color: inherit;
+}
+
+.nav .button {
+    float: right;
+    margin: auto;
+    background-color: #c3456f;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cousor: pointer;
+}
+
+header ul li:hover a {
+    color: #c3456f;
+}
+
+.banner {
+    background-image: url(../img/bg.jpg);
+    height: 850px;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.button:hover {
+    background-color: pink;
+    color: #000;
+}
+
+.main-hedding {
+    font-size: 70px;
+    color: #000;
+    font-weight: 300;
+
+}
+
+.first-color {
+    font-size: bold;
+    color: #674d64;
+}
+
+.secend-color {
+    font-size: bold;
+    color: #c3456f;
+}
+
+.text-content {
+    margin-top: 20px;
+    font-size: 20px;
+    float: left;
+    line-height: 1.5;
+    color: #674d64;
+    font-size: 12px;
+}
+
+.banner-wrap {
+    width: 100%;
+    float: left;
+    padding: 180px 0 0 135px;
+}
+
+.banner-button {
+    width: 100%;
+    float: left;
+    padding-bottom:
+}
+
+
+
+.first-button {
+    margin-top: 45px;
+    background-color: #c3456f;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cousor: pointer;
+
+}
+
+.secend-button {
+    margin: auto;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 5px;
+    cousor: pointer;
+    margin-left: 25px;
+}
+
+.secend-button:hover {
+    background-color: #674d64;
+    color: #fff;
+}
+
+.first-button:hover {
+    background-color: #674d64;
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+
+.left-width {
+    width: 17%;
+    position: absolute;
+    height: 75%;
+    left: 0;
+    top: 0;
+    background-color: #efcf89;
+
+}
+
+.right-width {
+    width: 100%;
+    padding-left: 5%;
+
+}
+
+.sub-headding {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 55px;
+    font-weight: 300;
+}
+
+.center {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+
+}
+
+.first-button.center-button {
+    margin: 50px 0 100px 0;
+
+}
+
+.sub-banner {
+    width: 100%;
+    float: left;
+    z-index: 4;
+
+}
+
+.image {
+    width: 70%;
+    margin: auto;
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.image img {
+    width: 80px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.tc {
+    font-size: 82px;
+    text-align: center;
+    display: block;
+    padding-top: 90px;
+    color: #fff;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.tr {
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px 0 70px;
+    font-size: small;
+
+}
+
+.left-width.sec {
+    width: 85%;
+    float: left;
+    position: relative;
+    background: none;
+}
+
+.allison {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+}
+
+.allison img {
+    width: 60%;
+    position: absolute;
+    top: 50px;
+    left: 155px;
+}
+
+.meet {
+    float: right;
+    width: 50%;
+    padding: 115px 15px 0 0;
+}
+  p {
+    font-size: 12px;
+    color: #674d64;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.coach {
+    color: #674d64;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.first-button.button-3rd {
+    background-color: #c3456f;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 50px;
+    border: none;
+    margin-top: 0px;
+    border-radius: 5px;
+    cousor: pointer;
+}
+
+.button-3rd:hover {
+    background-color: #674d64;
+}
+
+.right-width-sec {
+    width: 15%;
+    background: aliceblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.calendar1st{
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.calendar{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.calendar1st{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.call{
+    width: 50%;
+    float: left;
+    background-color: #c3456f;
+}
+
+.call img{
+    width: 100%;
+}
+
+.sahi{
+    text-align: center;
+    margin-top: -220px;
+    color: #674d64;
+}
+
+.sahi h3{
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.call1st{
+    width: 50%;
+    float: right;
+    background-color: #c3456f;
+    color: white;
+}
+
+.clander-heading{
+    font-size: 36px;
+    font-weight: 300;
+    border-bottom: 1px solid #c3f;
+    padding:15px;
+    text-align: center;
+
+}
+    
+.calendar{
+   padding: 0 10px;
+}
+
+.call1st .headding .week-days,
+.call1st .headding .dates{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.call1st .headding .week-days .week-day,
+.call1st .headding .dates .date
+{
+    display: flex;
+    justify-content: center;
+    width: calc(100% / 7);
+    height: 66px;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.call1st .headding .dates .booked:hover{
+    background-color: #674d64;
+}
+
+.calendar .headding .dates .booked{
+    opacity: 0.4;
+    cursor: unset;
+}
+
+.last {
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.sign {
+    text-align: center;
+    padding: 20px 0;
+    color: #674d64;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.wrapper{
+   max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+input {
+    width: 47%;
+    margin: 0 0 25px 15px;
+    padding: 10px;
+    outline: none;
+}
+
+.wrapper a {
+    background: #c3456f;
+    padding: 10px 80px;
+}
+
+.footer h3{
+    font-size: 12px;
+    font-weight: 300;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    float: left;
+    background-color:#674d64 ;
+    color: #fff;
+}
+
+.right-width-sec {
+    background-color: #674d64;
+    height: 155%;
+    width: 15%;
+    margin-top: -220px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.now:hover{
+    background-color: #674d64;
+    color: #fff;
+}
